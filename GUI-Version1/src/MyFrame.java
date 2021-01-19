@@ -14,7 +14,9 @@ public class MyFrame extends JFrame {
 		
 		ImageIcon image = new ImageIcon("flower-icon-png.png"); //create a ImageIcon
 		this.setIconImage(image.getImage()); //change icon of this
-		this.getContentPane().setBackground(new Color(255,255,255)); //change color of background
+		this.getContentPane().setBackground(new Color(255,255,255)); //change color of background 
+		
+		
 	}
 	
 }
